@@ -7,8 +7,7 @@ const Login = (props) => {
     const [email, onChangeEmail] = React.useState("");
     const [password, onChangePassword] = React.useState("");
     return (
-        <SafeAreaView style= {{height:"100%", width:"100%",backgroundColor: Colors.bgColor}}>
-            
+        <SafeAreaView style= {{height:"100%", width:"100%",backgroundColor: Colors.bgColor}}>  
         <View style={{height:"15%", width:"37%", justifyContent: "flex-end", alignItems:"center"}}> 
             <Text style={{fontSize:25, fontWeight:"bold", color: Colors.wmText}}>
                 Welcome!
@@ -42,6 +41,5 @@ const Login = (props) => {
              </Text>
              </View>  
              </SafeAreaView>
-    )
-}
+    )}
 export default Login
